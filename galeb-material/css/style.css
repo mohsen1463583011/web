@@ -1,0 +1,110 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* header */
+
+header{
+    background-image: url('../image/head.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    font-size: 40px;
+
+}
+
+nav ul.navbar{
+    display: flex;
+}
+
+blockquote{
+    border-right: 5px solid #ee6e73;
+    border-left: none;
+    padding-right: 10px;
+}
+
+.tittle{
+    margin-bottom: 40px;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card img{
+    transition: all 0.3 ease-in-out;
+}
+.card:hover img{
+    transform: scale(1.2);
+}
+
+.portfolio a:hover{
+    color: black !important;
+}
+
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.ul.tabs{
+    display: flex;
+}
+
+
+
+
+/* footer */
+.flex{
+    display: flex;
+}
+
+.flex p{
+    line-height: 25px;
+}
+
+.social svg{
+    font-size: 20px;
+}
+
+.social div{
+    margin-top: 20px;
+}
+
+.fast{
+    display: flex;
+}
+
+/* .fast ul{
+    padding: 0px;
+} */
+
+
+@media screen and (max-width:768px){
+    header{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:600px){
+    #service .row div{
+       margin: 20px 0;
+    }
+    #service .row div h2{
+        font-size: 25;
+     }
+}
+
